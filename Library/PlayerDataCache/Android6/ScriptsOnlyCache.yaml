@@ -1,0 +1,1655 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - HandTracking
+    Meta.XR.BuildingBlocks.Editor.dll:
+    - Meta.XR.BuildingBlocks.Editor.BlockData
+    - Meta.XR.BuildingBlocks.Editor.CameraRigBBBlockData
+    - Meta.XR.BuildingBlocks.Editor.ControllerTrackingBlockData
+    - Meta.XR.BuildingBlocks.Editor.EyeGazeBlockData
+    - Meta.XR.BuildingBlocks.Editor.HandTrackingBlockData
+    - Meta.XR.BuildingBlocks.Editor.InterfaceBlockData
+    - Meta.XR.BuildingBlocks.Editor.RoomMeshBlockData
+    - Meta.XR.BuildingBlocks.Editor.SharedSpatialAnchorCoreBlockData
+    - Meta.XR.BuildingBlocks.Editor.VirtualKeyboardBlockData
+    - Meta.XR.BuildingBlocks.SampleSpatialAnchorBlockData
+    - PassthroughWindowBlockData
+    Meta.XR.BuildingBlocks.dll:
+    - AlertViewHUD
+    - EnableUnpremultipliedAlpha
+    - Meta.XR.BuildingBlocks.ControllerButtonsMapper
+    - Meta.XR.BuildingBlocks.PassthroughProjectionSurfaceBuildingBlock
+    - Meta.XR.BuildingBlocks.RoomMeshController
+    - Meta.XR.BuildingBlocks.RoomMeshEvent
+    - Meta.XR.BuildingBlocks.SharedSpatialAnchorCore
+    - Meta.XR.BuildingBlocks.SpatialAnchorCoreBuildingBlock
+    - Meta.XR.BuildingBlocks.SpatialAnchorLoaderBuildingBlock
+    - Meta.XR.BuildingBlocks.SpatialAnchorLocalStorageManagerBuildingBlock
+    - Meta.XR.BuildingBlocks.SpatialAnchorSpawnerBuildingBlock
+    - SharedSpatialAnchorErrorHandler
+    Meta.XR.MultiplayerBlocks.Fusion.Editor.dll:
+    - Meta.XR.MultiplayerBlocks.Fusion.Editor.VoiceChatInterfaceBlockData
+    Meta.XR.MultiplayerBlocks.Shared.Editor.dll:
+    - Meta.XR.MultiplayerBlocks.Shared.Editor.ControllerTeleporterBlockData
+    Meta.XR.MultiplayerBlocks.Shared.dll:
+    - Meta.XR.Locomotion.Teleporter.ArcTargeter
+    - Meta.XR.Locomotion.Teleporter.JoystickInput
+    - Meta.XR.Locomotion.Teleporter.TeleportTelegraph
+    - Meta.XR.Locomotion.Teleporter.Teleporter
+    Oculus.VR.Editor.dll:
+    - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
+    - OVRProjectConfig
+    Oculus.VR.dll:
+    - OVRBody
+    - OVRCameraRig
+    - OVRControllerHelper
+    - OVRCustomSkeleton
+    - OVREyeGaze
+    - OVRHand
+    - OVRHeadsetEmulator
+    - OVRManager
+    - OVRMesh
+    - OVRMeshRenderer
+    - OVRPassthroughLayer
+    - OVRRuntimeSettings
+    - OVRSceneAnchor
+    - OVRSceneManager
+    - OVRSceneModelLoader
+    - OVRScenePlaneMeshFilter
+    - OVRSkeleton
+    - OVRSkeletonRenderer
+    - OVRVirtualKeyboard
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusLoader
+    - Unity.XR.Oculus.OculusSettings
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
+  serializedClasses:
+    Oculus.VR.Editor:
+    - Assets.Oculus.VR.Editor.AssetConfigList
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16742}
+    - Class: 114
+      Script: {instanceID: 16824}
+    - Class: 114
+      Script: {instanceID: 17002}
+    - Class: 114
+      Script: {instanceID: 17410}
+    - Class: 114
+      Script: {instanceID: 17988}
+    - Class: 114
+      Script: {instanceID: 18002}
+    - Class: 114
+      Script: {instanceID: 18970}
+    - Class: 114
+      Script: {instanceID: 19002}
+    - Class: 114
+      Script: {instanceID: 19144}
+    - Class: 114
+      Script: {instanceID: 20224}
+    - Class: 114
+      Script: {instanceID: 21438}
+    - Class: 114
+      Script: {instanceID: 22010}
+    - Class: 114
+      Script: {instanceID: 22540}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 8b0fb436d504b931ba160651af617241
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 7bcb35908a60cac26edee0ff51816ada
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: c1058004017c4d95e55a1c77d955e000
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a9d9d285d996b592f1ccf674fa017099
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 4b6df39eff434478d54da440811b39b6
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 4c33d82e203a72a5c9482c52e4c55d7e
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
+  - hash:
+      serializedVersion: 2
+      Hash: bba4c2031fdf680631a97c6d0a4aaa8a
+    assemblyName: Meta.XR.MultiplayerBlocks.Shared.dll
+    namespaceName: Meta.XR.MultiplayerBlocks.Shared
+    className: TransferOwnershipOnSelect
+  - hash:
+      serializedVersion: 2
+      Hash: 719a1390f9eb856966a1aaab72041631
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a506b72c53f139c380ebe7f3581a434b
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: da05abcc878171591b25804eef377360
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 987ed4d7beac2447e740fac2146b1558
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRPointerVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: d5dbba1e095217e88ae7faf82e4e2dbe
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: ea4537ac31c766fc621c407b2b4da066
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVROverlay
+  - hash:
+      serializedVersion: 2
+      Hash: ae41a94c8ca53ce3aac23ed6820e0844
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRModeParms
+  - hash:
+      serializedVersion: 2
+      Hash: b6919327bcca55e4e56b20b361fa8ee4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 40f1d61053fd46ebc6a06083fc0eafc0
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5609918a60ea832f95015e31aebd9763
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4eb7fccbec15b7f56a3fd53b31b1be6d
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRPlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 63c4a01f33a1344ecba4fb2f02b6d730
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: Meta.XR.BuildingBlocks
+    className: SpatialAnchorLoaderBuildingBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 6d941392599eb45b4102cc5f034ddb9e
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRVirtualKeyboardSampleWPMPrompt
+  - hash:
+      serializedVersion: 2
+      Hash: d35724dfb8313cd49c2aa758d4bf6949
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRBuildInfo
+  - hash:
+      serializedVersion: 2
+      Hash: f1748bf8246953f0f40cddfe15f80b65
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRHandTrackingWideMotionModeSample
+  - hash:
+      serializedVersion: 2
+      Hash: eaeb4530774ab3352f7e2701eb548855
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: 
+    className: EnableUnpremultipliedAlpha
+  - hash:
+      serializedVersion: 2
+      Hash: e3512448bd98805bc62e887fdb4ed0f0
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRManager
+  - hash:
+      serializedVersion: 2
+      Hash: 63a35fe9d9df845d6cce35c540ff5b8f
+    assemblyName: Oculus.VR.Editor.dll
+    namespaceName: Assets.Oculus.VR.Editor
+    className: OVRPlatformToolSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 4763159aa2d72ed796c2398564a4d18d
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b78c32cff0eae75ae1df0f6df56ca7ac
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRResources
+  - hash:
+      serializedVersion: 2
+      Hash: 48d7ab1e595544a3f61b2872a17ae7f0
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRHand
+  - hash:
+      serializedVersion: 2
+      Hash: 9605a0475669ece0189f675c4d408e5f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 53094487dc1668e88601b408ef99eb93
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3562159917e0e7c05b2d011994e4fe9f
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSpatialAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 15f336ff9b8646256be9933e64dcfb92
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: baf218a9799098962f3ddb5d79364282
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 7e1ca2b5e4b4a944c49675ecc44d136e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b8c62e6fbbd49b0adf47ca1dfd4b7754
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 247c7a0045b13431c5d57693f80d5658
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: Meta.XR.BuildingBlocks
+    className: SharedSpatialAnchorCore
+  - hash:
+      serializedVersion: 2
+      Hash: 6bd83f5638bf03d85f50300b69e16e58
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSkeletonRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 580af5daf9ed8620cbe854d404f12858
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRVirtualKeyboardSampleInputHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 29f58a63eb4bc0882064d63329797292
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRControllerTest
+  - hash:
+      serializedVersion: 2
+      Hash: 3a74ff97f36cb7570e57460d53dcf9c2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ef2a760dc8c0bb333363120518871762
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 46f8815aaefa696d509049c348ad6805
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: c3220f7afd647b11dae09800190b3898
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a152f4bbfcc1c203222264e9469e6cd6
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 201b3e41302e8bd8463c6af1573b2adb
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6554088abf80322f19a20856543c0003
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 109c49782f136d8dd53ff0aa13a48ff1
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRMeshRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: c3632937d58e47b256c6c90c1fb55119
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 84c295144a2fce36bf4afcb7fb81265f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: df6eab954ec864d23f72bf3587a64b76
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 5d66253f226d437184365640fe3cb5ed
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: Meta.XR.BuildingBlocks
+    className: RoomMeshController
+  - hash:
+      serializedVersion: 2
+      Hash: 9e8898d1705d409ec4c988108072c8af
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 68d5dec1c60c68c2dfc1f02723e0b735
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: bcb9b7a93c09c207eb313c02affe0d60
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: a401d62e0a7b4e119d20fb7f6723eba8
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ac0995427965ff4d5e37afde8449a2d7
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8c5ab079dbc06dd660a4f3f0f25c099e
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 8a0dd831b94fc148717edf1825df90f5
+    assemblyName: Oculus.VR.dll
+    namespaceName: OVR.Input
+    className: UIButtonSquishHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 88342c26212e60caa6c2c86dd7c849a4
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRVirtualKeyboardHandInputHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c6cde2f651587a663046c5a99a5507e1
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: 
+    className: SharedSpatialAnchorCoreBuildingBlock
+  - hash:
+      serializedVersion: 2
+      Hash: d724b6e49da746e4fd6dfdcd6b0798ec
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e9b0d20702c6ef9be1df3f4413eb96b4
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRFace
+  - hash:
+      serializedVersion: 2
+      Hash: 4a3351e209ecf0eff6ab268e49d7f341
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 8165edc0ea71078aadd02b6c3ce945a1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: e767c4aa5ddc7228b6ca83da9aa0fba2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 81bb2f606fceb858467b5a01d57faa6e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d7dbaf53bfd5a19f72d2d706e0ffb04f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandTracking
+  - hash:
+      serializedVersion: 2
+      Hash: 698e6e6c9e675a2ebc37cebf068eb329
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRAudioSourceTest
+  - hash:
+      serializedVersion: 2
+      Hash: dc000941e2f6d50c2e8ef36cc0cbeaae
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 53f075b099349077b1457e8fba11294d
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRRuntimeAssetsBase
+  - hash:
+      serializedVersion: 2
+      Hash: 411a04d1ee8748824e224a553948367e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cfbabd47c5938110f5fd989e6ba6b90f
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRVirtualKeyboardControllerInputHandler
+  - hash:
+      serializedVersion: 2
+      Hash: f8b223f640cb8dc146d2777cc21877e2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 68587ea39bb503ea8d65053e93c31d06
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 1d9e07bb8536f382c86a0ef0c58f5e7f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0531d5fbddefc8de09b7b2699d523ee8
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 59a3597e8b443837c9d7e56154cecead
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5ba7577cb673a9cde454510ca96b0169
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: 
+    className: AlertViewHUD
+  - hash:
+      serializedVersion: 2
+      Hash: c9bef3decb730d804c956c7435d50175
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: 
+    className: SharedSpatialAnchorErrorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: bc9d953d3dc34e5a7b3d36313ef1730e
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRHandTest
+  - hash:
+      serializedVersion: 2
+      Hash: bd4016a2045f75e945497f07c5b80503
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: f87a82bdc1582c5f70b70ca85233d7f2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 65784ab5ae832e00230735e19000957b
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 40dec0d4520367914aafca948c52f649
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: e81f4e25ee0d18ab190dad466bd493ec
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: b309f0b8b517f50a2601fbb7a2f9f705
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 769abea9aa79f49a2ee1a4facd0a61d5
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d7bd913ee74a4cad73a7c048d9783cd3
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: dd7ac013a8aafbc8c6893dba5a714be0
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSceneVolumeMeshFilter
+  - hash:
+      serializedVersion: 2
+      Hash: be89a499e95fa05b44ba72ccc40b2b4a
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: e2ef01f34bd690f24e8c65c152d4de0d
+    assemblyName: Oculus.VR.dll
+    namespaceName: Meta.XR.Samples
+    className: SampleMetadata
+  - hash:
+      serializedVersion: 2
+      Hash: 5d1b5a5aafd0c5cb3dc14985dc978d55
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 701ab05e663bc30c9cd3942239046704
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSceneObjectTransformType
+  - hash:
+      serializedVersion: 2
+      Hash: f353ad85b3625ec68636c3cbdcd1bd29
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSceneLoader
+  - hash:
+      serializedVersion: 2
+      Hash: d0e006fedd27d9ac47c3728a583393ad
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSemanticClassification
+  - hash:
+      serializedVersion: 2
+      Hash: 3c3e5980c88a14a86741564a7fd08aaa
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 011a1366c3a6717300e91113581155ef
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRPlatformMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 07f6b570feccb13743f1dc24bc21f04d
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRGearVrControllerTest
+  - hash:
+      serializedVersion: 2
+      Hash: d28b52a863ba5e1504776a993e061dd2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1d62eeda38f1bbd9fa88cf7dddb916cc
+    assemblyName: Meta.XR.MultiplayerBlocks.Shared.dll
+    namespaceName: Meta.XR.Locomotion.Teleporter
+    className: JoystickInput
+  - hash:
+      serializedVersion: 2
+      Hash: 157a84ce996f69136d93a5b7e2f3a44a
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSceneSampleController
+  - hash:
+      serializedVersion: 2
+      Hash: 2bd783b5b85429caff317fd8ece19300
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 9ed49d01433b68eb3bfae4a796b2d7cd
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVROverlayCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: b447f433a5a994508f52e465931f0539
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: Meta.XR.BuildingBlocks
+    className: SpatialAnchorLocalStorageManagerBuildingBlock
+  - hash:
+      serializedVersion: 2
+      Hash: a0060c3fd39d4e7fbca71137eb0b8be1
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRGazePointer
+  - hash:
+      serializedVersion: 2
+      Hash: 1824a9130d49df16abbf95d88546f25c
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 10298ecb8be687c2d4d31c932dba9ab6
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRProgressIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: 21f4f1fec12583058b4c5843abeefdbb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 6a9516770b070951680a95390b9098a5
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 0fc6c801f81ba3143f769b33f291ea51
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRCameraRig
+  - hash:
+      serializedVersion: 2
+      Hash: 89003befdf0a1cfbd8100c7759ff3201
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 1199c6a0778d95b83f0b2c4a207327ef
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRScreenFade
+  - hash:
+      serializedVersion: 2
+      Hash: 6fea02e0a8b3cb3b15440b3ff3fce29b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 10309a6a9f72c46e23a2a5c81c1c60d5
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSceneRoom
+  - hash:
+      serializedVersion: 2
+      Hash: d425bfa9fb50d236c6a6b4149713f719
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRPassthroughLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 621258cbf131e999213abbde65c03985
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 490e137edb98cbd7f3e0974544acd5b4
+    assemblyName: Oculus.VR.dll
+    namespaceName: UnityEngine.EventSystems
+    className: OVRInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 03116c959005bf565efe4a31f8be265e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b20bb37fe547a38e67e865c7074ed8f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: cb0af9d821296cd6914b3b57ceb35dac
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6378e46acced80497ec34fd8b08028ae
+    assemblyName: Meta.XR.MultiplayerBlocks.Shared.dll
+    namespaceName: Meta.XR.MultiplayerBlocks.Colocation
+    className: AnchorDebugVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 76b17bf564fa9f8bd6ab3d1e431f9667
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1bf69b5e6d691bc243310b54e278041c
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRCustomSkeleton
+  - hash:
+      serializedVersion: 2
+      Hash: 23e32dce42b2d18025b21361c24d168a
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: Meta.XR.BuildingBlocks
+    className: BuildingBlock
+  - hash:
+      serializedVersion: 2
+      Hash: b1a9181a9e005c3e2bdb9d566dc92fb8
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9ed9e421d17369f1952e18cc1edadbcb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 67fbfcfe8dafffa2b3119146142ecf79
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRFaceExpressions
+  - hash:
+      serializedVersion: 2
+      Hash: 7219ebb0b4a64fd19236e423b34046f6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 73e414d9bade6fd6f045aa054ca8a856
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 805bc52e540edc7c7f8e830f9c181de1
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVREyeGaze
+  - hash:
+      serializedVersion: 2
+      Hash: 6d1ca98bad1cb30a274f79776b279843
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 947a41342a2f0bf133f901f6884ee302
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRVignette
+  - hash:
+      serializedVersion: 2
+      Hash: c109cfe9aae895d11791dfe98fb8c432
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRVirtualKeyboardInputFieldTextHandler
+  - hash:
+      serializedVersion: 2
+      Hash: e23e2a6e4dae82858fd1e7473e8f0a9e
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRMonoscopic
+  - hash:
+      serializedVersion: 2
+      Hash: 999c449ad95117c75b6263e062d2e58e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 00772c2e501491e3584a0eea65958c5a
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 2d03b8ce630f57cc7f5f2c763d4ed1a1
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 78fa8c70bef8c6d96ce76e6d539a1987
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f7891f7a3119b764739daa710e018b19
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRVirtualKeyboardSampleControls
+  - hash:
+      serializedVersion: 2
+      Hash: 2c797926b9a01a4b384893efc3c461c0
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRGridCube
+  - hash:
+      serializedVersion: 2
+      Hash: 3d860abc344bfbd5a594aa55314fb635
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: aa07fd3ae5e6bf366ab0a513f5a274f5
+    assemblyName: Oculus.VR.dll
+    namespaceName: UnityEngine.EventSystems
+    className: OVRPhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: dd186e52bba51b28bd6a08f77a3a7124
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: f3af0e0f637016253c40351a71eac6ba
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5a1c0c346547193eda7911f574857c6e
+    assemblyName: Meta.XR.MultiplayerBlocks.Shared.dll
+    namespaceName: Meta.XR.Locomotion.Teleporter
+    className: ArcTargeter
+  - hash:
+      serializedVersion: 2
+      Hash: 480e2a56c81cbe122ffc7c3fe7336a07
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e688ed407bbfb11c21058187316ed44e
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 5bc8b03ef4c96d75a42e5e7b1b577e66
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 2b1e927c1be8713120983e7ee0a5eb4d
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRRayHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 10b44983f0a7578909bb4d68fa771902
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0c5fed55eca6cd5e7a0b33d8d566ebb3
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusRestarter
+  - hash:
+      serializedVersion: 2
+      Hash: b440ca7e80d9abd0099b93b97144852e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandTrackCut
+  - hash:
+      serializedVersion: 2
+      Hash: 9efc8c65b86b5c1022ed3efd7ac004a8
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2380288dfe403a7f4b2182b575687cb8
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b46a27dc8fe542927657974694fc29aa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 7283d7517057dea3e1257e97fd0e6f36
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d47a78fe0e6cf6630edacc51c298b2d0
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRDebugInfo
+  - hash:
+      serializedVersion: 2
+      Hash: e78f6985cfa9077afa7bb6c3ee81529f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8f097b34bdf8abb879380e601f5446c5
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRHeadsetEmulator
+  - hash:
+      serializedVersion: 2
+      Hash: df1033494766e6b69be36f2c5b164474
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRTrackedKeyboardHands
+  - hash:
+      serializedVersion: 2
+      Hash: f7834a06a842b45bda2a2a5ed18563f8
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRCubemapCapture
+  - hash:
+      serializedVersion: 2
+      Hash: 94702c424c412b028c80471d26614d36
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRMixedRealityCaptureTest
+  - hash:
+      serializedVersion: 2
+      Hash: 2d957d33afa5072080a40c9c783eb96c
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5d2eca6f6cfbab49b6fa5ee0d302f2f0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ce29c624b4e215f90c5fc5df651c5363
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f805860d802ad3db8b9cc3cdca567b78
+    assemblyName: Meta.XR.MultiplayerBlocks.Shared.dll
+    namespaceName: Meta.XR.Locomotion.Teleporter
+    className: TeleportTelegraph
+  - hash:
+      serializedVersion: 2
+      Hash: 9e29667a89e02241a5acac926156e2f2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8e0c8b499f64b686c0ec50f43e94d3af
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 8de12aca8b8cb30fa29dfedb5a701e0e
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a4c5d7aed7d96606317e0ac5f4416bec
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: Meta.XR.BuildingBlocks
+    className: SpatialAnchorCoreBuildingBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 174e5c16ac87b803fe70dfc7c4b69499
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRTrackedKeyboardSampleControls
+  - hash:
+      serializedVersion: 2
+      Hash: e1366a678bae4e61881503aba4f51f34
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRVirtualKeyboard
+  - hash:
+      serializedVersion: 2
+      Hash: 0a58a8184cc28447a00dbb9fd50c3a69
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRWaitCursor
+  - hash:
+      serializedVersion: 2
+      Hash: 206a5c9d773ef22bc5ed2f451cd7ffbf
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0ab78f031b53dd5d55f964f3cd1c223e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: d9587cfe1e33cbc2d96e5b94d6f77345
+    assemblyName: Meta.XR.MultiplayerBlocks.Shared.dll
+    namespaceName: Meta.XR.MultiplayerBlocks.Shared
+    className: ColocationController
+  - hash:
+      serializedVersion: 2
+      Hash: ed034cff83e1d608e66691a37102630c
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: c42ff0de1fab203a4fc8340d9212a09a
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: badc7d1143ac04463b42fdf36f850cb8
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSpectatorModeDomeTest
+  - hash:
+      serializedVersion: 2
+      Hash: 3c2668168534da80edf1a524a13c8501
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: Meta.XR.BuildingBlocks
+    className: ControllerButtonsMapper
+  - hash:
+      serializedVersion: 2
+      Hash: ab83fa9209b73d94dbec301001db7690
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0a09f44bc14bb85adfa42a0cf0cf9e04
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: Meta.XR.BuildingBlocks
+    className: RoomMeshEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ce8a090dc61907112153033bf652f32f
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 9690f760294698c29b1bee7d9b7bd452
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 054ac1ce92df27e1f4658ad06b5e159a
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRRuntimeController
+  - hash:
+      serializedVersion: 2
+      Hash: a273edb1f10a7eafb870721bc4bddaca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 0ffacc03a651624ad5bb72bc787275f7
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: ceb4961d39f347996fda1404ac174d05
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6691dd18200d133e8dbae24b6281d1cf
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: be99b354d0df5e6c859e262a3ebf054d
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRRuntimeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 33351225ad07d388c6f33d76ccfe9ba6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 674edc54331b56ec14c3c9d619e9c5f8
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRUnityHumanoidSkeletonRetargeter
+  - hash:
+      serializedVersion: 2
+      Hash: 02cccc48209c702fe78c9dbab4f51887
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRScenePlane
+  - hash:
+      serializedVersion: 2
+      Hash: f1ba3939edcf4406dbb90ccb6e292259
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c775193bec472a91767f76dccfe603e7
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 481686ffbf2fc3408fb462a16b501d77
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSimultaneousHandsAndControllersSample
+  - hash:
+      serializedVersion: 2
+      Hash: 7f5d04a23d7ad272dc7905d8fa0d3ae5
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 678e1b1d2ead89a22d454421d06258e4
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 197d9c718d59660448024a691633ccb8
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSceneModelLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 60848472e362199ae5eac55c8892dcbe
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 25254617bf04a226864a9b60d1f20837
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 098e616fddf2c530f28257c2c39f270b
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 466329aa1430edd5d9cc35262ee17096
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f9786a3dca6228a6818ec4a0134d9212
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 3420c8df03796a76b061e501bd0deb2c
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRBody
+  - hash:
+      serializedVersion: 2
+      Hash: 805c62fb3df38a31dfa854c4f1d54dfa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: db4621b265460be63d1d1a268ed12711
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRDebugHeadController
+  - hash:
+      serializedVersion: 2
+      Hash: c05e73c4535140d8b52eabb410ae089c
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 08077b840206f83bd4071f25f414af08
+    assemblyName: Meta.XR.MultiplayerBlocks.Shared.dll
+    namespaceName: Meta.XR.Locomotion.Teleporter
+    className: Teleporter
+  - hash:
+      serializedVersion: 2
+      Hash: fe080edb42253ff47e3e338b21fe9f9e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ba1cff19de04af9af9c9ba758fe15a8a
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRCustomFace
+  - hash:
+      serializedVersion: 2
+      Hash: dc15cdcfcce97f93a72c051990a267d3
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 03537dd42b6fc73a601799c77ceb0b9c
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 453c286dc9c9c693626ccfeab876ea44
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 73506b9d9f64bff80c18023de02d9a8e
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: Meta.XR.BuildingBlocks
+    className: FollowAndCreateAnchorAtHandPositionBuildingBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 644007494bc8f11f96cb3d9910dc3bce
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 74101b1189e7f911aef3b5ca95b2db19
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 7a371cda3df8518a4493612e32376476
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRResetOrientation
+  - hash:
+      serializedVersion: 2
+      Hash: 55ac714ecd14f17465c0e21a680e5b69
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 98f966ddc7a20e6bbe727fb1a937b6f2
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRControllerDrivenHandPosesSample
+  - hash:
+      serializedVersion: 2
+      Hash: 721b86ca0a805a090d3c77076c706960
+    assemblyName: Meta.XR.MultiplayerBlocks.Shared.dll
+    namespaceName: Meta.XR.MultiplayerBlocks.Shared
+    className: PlayerNameTagSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 7773adf08916eb0d48f6f7d83328a525
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: Meta.XR.BuildingBlocks
+    className: PassthroughProjectionSurfaceBuildingBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 33fee8e8a5728b9e4a79534481094576
+    assemblyName: Meta.XR.MultiplayerBlocks.Shared.dll
+    namespaceName: Meta.XR.MultiplayerBlocks.Colocation
+    className: AlignCameraToAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: e14dcf7af3981900fd7ccc998d6e0e85
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1ff76b7a82b2b0fd6d84eed67370a649
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d09887d8847585c7b0571ec6a746b138
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 8ca6d35009565379334f4e1f08c280b7
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSkeleton
+  - hash:
+      serializedVersion: 2
+      Hash: a1926869a1b71ceb204692733af622c6
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 4a4bef72b9036ab8aba7d7b9ac172f53
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRScenePlaneMeshFilter
+  - hash:
+      serializedVersion: 2
+      Hash: b856feabaffdd6242b24f33817faefb3
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSceneVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 4e853d940e4d1fbb38e2adb8c867561f
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVROverlayMeshGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 142ce6957876ff7648ec3c5063e3e470
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRControllerHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 98ec37ee21be16d73e001401fcb6565e
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRMixedRealityCaptureSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 6990c321c3ec732be3c3b9dd3af8ec5d
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRAutoDestroyInMRC
+  - hash:
+      serializedVersion: 2
+      Hash: 09411a3e730912e4e1ec6a12535e1386
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 7d058425dfd4d06ddec4be7a4bb72067
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 677be75349270fe466d5b0ffbf66c4e7
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRTrackedKeyboard
+  - hash:
+      serializedVersion: 2
+      Hash: 9a892a8a59574894e4dfcc95e537835f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 19efe24480f9f09f5ac02c9afa419fdd
+    assemblyName: Meta.XR.BuildingBlocks.dll
+    namespaceName: Meta.XR.BuildingBlocks
+    className: SpatialAnchorSpawnerBuildingBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 859333885587342035ff75ae28f9d734
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 227479bd62346e4ec94436066e4f660a
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: e49f78d8bb554d5af6a69ccb1006b9ac
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRSceneAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 9141da52667d5b03d4f12036ebce4d0f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cd5e4b671a6f3e47fe319d5913a5513e
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: af3c7bb5f1a72685c8bff2aeb7ca8d1b
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 5c76b6826c5a42f322ba10c4da3fc50b
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2a1618af3cf6183b2385d416626c759a
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 829a3f3825b2b9d72365ef92d8177711
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: c5495cef5472c394a7d823d1315ba01d
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  platform: 13
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: C:/Users/matsu/Quest_GhostHand/Kenkyu1_4/Kenkyu1_4.apk

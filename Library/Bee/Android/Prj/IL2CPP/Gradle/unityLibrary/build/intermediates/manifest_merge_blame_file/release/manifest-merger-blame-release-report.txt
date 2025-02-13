@@ -1,0 +1,226 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-111
+12        android:name="android.hardware.vr.headtracking"
+12-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-64
+13        android:required="true"
+13-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:85-108
+14        android:version="1" />
+14-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:65-84
+15    <uses-feature
+15-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-87
+16        android:name="oculus.software.handtracking"
+16-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-60
+17        android:required="true" />
+17-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:61-84
+18
+19    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+19-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-73
+19-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:20-70
+20
+21    <uses-feature
+21-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-89
+22        android:name="com.oculus.feature.PASSTHROUGH"
+22-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-62
+23        android:required="true" />
+23-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:63-86
+24    <uses-feature
+24-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-92
+25        android:name="com.oculus.software.body_tracking"
+25-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-65
+26        android:required="true" />
+26-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:66-89
+27
+28    <uses-permission android:name="com.oculus.permission.BODY_TRACKING" />
+28-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-73
+28-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:20-70
+29
+30    <uses-feature android:name="android.hardware.vulkan.version" />
+30-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-66
+30-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-63
+31
+32    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+32-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-77
+32-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:24-74
+33
+34    <uses-permission android:name="android.permission.INTERNET" />
+34-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-65
+34-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:20-62
+35
+36    <uses-feature
+36-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:3-88
+37        android:name="android.hardware.touchscreen"
+37-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:17-60
+38        android:required="false" />
+38-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:61-85
+39    <uses-feature
+39-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:3-99
+40        android:name="android.hardware.touchscreen.multitouch"
+40-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:17-71
+41        android:required="false" />
+41-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:72-96
+42    <uses-feature
+42-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:3-108
+43        android:name="android.hardware.touchscreen.multitouch.distinct"
+43-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:17-80
+44        android:required="false" />
+44-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:81-105
+45
+46    <application
+46-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-27:17
+47        android:allowBackup="false"
+47-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:81-108
+48        android:extractNativeLibs="true"
+48-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:109-141
+49        android:icon="@mipmap/app_icon"
+49-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-80
+50        android:label="@string/app_name"
+50-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+51        android:networkSecurityConfig="@xml/network_sec_config" >
+51-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:142-197
+52        <activity
+52-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-12:16
+53            android:name="com.unity3d.player.UnityPlayerActivity"
+53-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:80-133
+54            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+54-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:238-347
+55            android:excludeFromRecents="true"
+55-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:134-167
+56            android:exported="true"
+56-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:419-442
+57            android:hardwareAccelerated="false"
+57-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:383-418
+58            android:launchMode="singleTask"
+58-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:206-237
+59            android:resizeableActivity="false"
+59-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:348-382
+60            android:screenOrientation="landscape"
+60-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:168-205
+61            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+61-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-79
+62            <intent-filter>
+62-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+63-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+65-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+66                <category android:name="com.oculus.intent.category.VR" />
+66-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-66
+66-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-63
+67            </intent-filter>
+68
+69            <meta-data
+69-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-81
+70                android:name="com.oculus.vr.focusaware"
+70-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-57
+71                android:value="true" />
+71-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:58-78
+72            <meta-data
+72-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+73                android:name="android.notch_support"
+73-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+74                android:value="true" />
+74-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+75        </activity>
+76
+77        <meta-data
+77-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-89
+78            android:name="unityplayer.SkipPermissionsDialog"
+78-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-64
+79            android:value="false" />
+79-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:65-86
+80        <meta-data
+80-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-97
+81            android:name="com.samsung.android.vr.application.mode"
+81-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-70
+82            android:value="vr_only" />
+82-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:71-94
+83        <meta-data
+83-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-88
+84            android:name="com.oculus.handtracking.frequency"
+84-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-64
+85            android:value="HIGH" />
+85-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:65-85
+86        <meta-data
+86-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-86
+87            android:name="com.oculus.handtracking.version"
+87-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-62
+88            android:value="V2.0" />
+88-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:63-83
+89        <meta-data
+89-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-86
+90            android:name="com.oculus.ossplash.background"
+90-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-61
+91            android:value="black" />
+91-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:62-83
+92        <meta-data
+92-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-93
+93            android:name="com.oculus.supportedDevices"
+93-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-58
+94            android:value="quest2|questpro" />
+94-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:59-90
+95        <meta-data
+95-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-69
+96            android:name="unity.splash-mode"
+96-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-48
+97            android:value="0" />
+97-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:49-66
+98        <meta-data
+98-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-74
+99            android:name="unity.splash-enable"
+99-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-50
+100            android:value="True" />
+100-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:51-71
+101        <meta-data
+101-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-78
+102            android:name="unity.launch-fullscreen"
+102-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-54
+103            android:value="True" />
+103-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:55-75
+104        <meta-data
+104-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-81
+105            android:name="notch.config"
+105-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-43
+106            android:value="portrait|landscape" />
+106-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:44-78
+107        <meta-data
+107-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-84
+108            android:name="unity.auto-report-fully-drawn"
+108-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-60
+109            android:value="true" />
+109-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:61-81
+110        <meta-data
+110-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-91
+111            android:name="com.unity.xr.oculus.LowOverheadMode"
+111-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:16-66
+112            android:value="false" />
+112-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:67-88
+113        <meta-data
+113-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:5-88
+114            android:name="com.unity.xr.oculus.LateLatching"
+114-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:16-63
+115            android:value="false" />
+115-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:64-85
+116        <meta-data
+116-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:5-93
+117            android:name="com.unity.xr.oculus.LateLatchingDebug"
+117-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:16-68
+118            android:value="false" />
+118-->C:\Users\matsu\Quest_GhostHand\Kenkyu1_4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:69-90
+119    </application>
+120
+121</manifest>
